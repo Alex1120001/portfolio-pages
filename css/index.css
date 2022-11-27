@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+*{
+    font-family: 'Libre Franklin', sans-serif;
+    text-decoration: none;
+    max-width: 100%;
+}
+
+body, html{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.wrap-main{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main-back{
+    background: rgba(198, 108, 73, 0.3);
+    height: 100%;
+    width: 100%;
+}
+.content-main{
+    color:#fff;
+    width: 85%;
+    margin: auto;
+    padding-top: 90px;
+}
+.header-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-menu span+span{
+    margin-left: 60px;
+}
+.header-menu span a{
+    color:#fff;
+}
+.content-row{
+    margin-top: 140px;
+}
+.content-row h1{
+    font-size: 64px;
+}
+.content-row h4{
+    font-size: 24px;
+}
+.content-row p{
+    margin-top: 100px;
+}
+.wrap-about{
+    width: 85%;
+    margin: auto;
+}
+.about-block{
+    padding: 90px 0px;
+}
+.about-text{
+    margin-top: 80px;
+    color: #333333;
+}
+.about-text p+p{
+    margin-top: 30px;
+}
+.wrap-skills{
+    background: #FFFAF2;
+}
+.skills{
+    width: 85%;
+    margin: auto;
+    padding: 90px 0px;
+}
+.skil-block{
+    margin-top: 90px;
+}
+.description-skills{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+.line{
+    height: 24px;
+    width: 100%;
+    background: #F5D6AB;
+}
+.active-line-1{
+    width: 75%;
+    background: #C66C49;
+    height: 100%;
+}
+.active-line-2{
+    width: 55%;
+    background: #C66C49;
+    height: 100%;
+}
+.active-line-3{
+    width: 95%;
+    background: #C66C49;
+    height: 100%;
+}
+
+.skil-block{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+}
+.portfolio{
+    width: 85%;
+    margin: auto;
+    padding: 90px 0px;
+}
+.portfolio-block{
+    margin-top: 90px;
+}
+.portfolio-block{
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 40%  60%;
+}
+.port-images{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 20px;
+    gap: 10px;
+}
+.col-2 div+div{
+    margin-top: 10px;
+}
+.port-descriptiob{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.btn-slide img+img{
+    margin-left: 20px;
+}
+footer{
+    background: #FFFAF2;
+}
+.wrap-footer{
+    width: 85%;
+    margin: auto;
+    padding: 90px 0px;
+}
+footer a{
+    color:#333;
+}
+.content-footer div{
+    display: flex;
+    flex-direction: column;
+}
+.content-footer div span+span{
+    margin-top: 10px;
+}
+.content-footer {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: auto auto auto; 
+}
+.function p+p{
+    margin-top: 18px;
+}
+.me-images{
+    max-width: 80%;
+}

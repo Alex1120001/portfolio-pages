@@ -1,0 +1,79 @@
+@media (max-width:900px){
+    .img{
+        margin: auto;
+    }
+    .skil-block{
+        grid-template-columns: 100%;
+        font-size: 12px;
+    }
+
+    .description-skills{
+        margin-top: 40px;
+    }
+    .skil-block{
+        margin-top: 40px;
+    }
+    .skills{
+        padding: 40px 0px; 
+    }
+    .header-menu{
+        display: none;
+    }
+    .content-main{
+        padding: 30px 0px;
+    }
+    .content-row{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .content-row h1{
+        font-size: 28px;
+    }
+    
+    .content-row p{
+        margin-top: 40px;
+    }
+    .content-row h4{
+        font-size: 20px;
+    }
+    .header-item{
+        justify-content: center;
+    }
+    .wrap-main{
+        height: auto;
+        background-image:url(../images/bg.png)
+    }
+}
+
+@media (max-width:700px){
+    .portfolio-block{
+        grid-template-columns: 100%;
+    }
+    .port-images{
+        padding-left: 0px;
+        margin: 40px auto;
+    }
+    .btn-slide{
+        display: none;
+    }
+    .portfolio{
+        text-align: center;
+    }
+    
+    .about-block{
+        padding: 30px 0px;
+        text-align: center;
+    }
+    .about-text{
+        margin-top: 40px;
+        text-align: justify;
+    }
+    
+    .content-footer{
+        grid-template-columns: 50% 50%;
+        grid-row-gap: 30px;
+    }
+    .wrap-footer{
+        padding: 40px 0px;
+    }
+}
